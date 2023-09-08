@@ -1,0 +1,164 @@
+.header{
+    background-color:#0aad85;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-brand{
+    color: #c3bbc5 !important;
+    font-family:monospace;
+    font-size: xx-large !important;
+    font-weight: bold;
+}
+
+.hero{
+    height: 400px;
+    background-image: url('headhero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.hero h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero p{
+    color: #ffffff;
+    font-weight:500;
+}
+
+.hero a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:25px;
+    padding-right: 25px;
+    border-radius: 20px;
+}
+
+.hero a:hover{
+    color: #ffffff;
+    background-color: #6bb9f8; 
+}
+
+.all-produk{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+.produk{
+    background-color: whitesmoke;
+    width: 230px;
+    height: 358px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 1px 3px 5px gray;
+    border-radius: 5px;
+}
+
+.produk img{
+    height: 220px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.nama-produk{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.harga-produk{
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.produk a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.produk a:hover{
+    color: #ffffff;
+    background-color: #6bb9f8; 
+}
+
+.footer{
+    background-color:#0aad85;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.footer p{
+    color: black;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    
+    .hero{
+        padding-top: 150px;
+    }
+
+    .hero h1{
+        font-size: 30px;
+    }
+
+    .hero p{
+        font-size: 10px;
+    }
+
+    .all-produk{
+        margin-left: 20px;
+    }
+
+    .produk{
+        width: 150px;
+        height: 290px;
+    }
+
+    .produk img{
+        width: 120px;
+        height: 140px;
+    }
+
+    .nama-produk{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .produk a{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer p{
+        padding-top: 10px;
+        font-size: 10px;
+    }
+}
